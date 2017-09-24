@@ -74,7 +74,7 @@ showalignment(phm2align);
 %Miguel Ángel: I put the example from the previous problem, I also put a
 %pause operation within the function, so it will take about 30 seconds to
 %get the list of blast hits, because if you do not pause it, there is a
-%chance that the blast isn't ready in the NCBI database and will throw
+%chance that the blast aren't ready in the NCBI database and will throw
 %back an error. 
 
 AccessBlasts('NM_002746',5);
@@ -84,9 +84,6 @@ AccessBlasts('NM_002746',5);
 % closest non-human match. Hint: see the "Source" or "SourceOrganism" field in the data
 % returned by getgenbank. Make sure your function does something sensible
 % if nothing human is found. 
-
-
-
 
 % Part 3. Choose at least one gene from the human genome and one gene from
 % another organism and run your code from part 2 on the relevant accession
